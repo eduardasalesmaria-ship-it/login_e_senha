@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html> lang="pt-br"
+<html lang="pt-br">
 <head>
-
-
-    <title>pagina de login</title>title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Página de Login</title>
 </head>
-<body<
-<h2>login</h2>
-<form id="loginforms">
- <div class="input-group"</div>class="input-group">
-  <labelfor="username>usário:</labe>
-  <input type="text" id="username"name="username"placeholder="digite seu usário">
-    </div>
-    </div>class="input-group">
-    <label for="password">senhas</label>
-    <input type="password" id="password" placeholder="digite sua senha"
+<body>
+    <div class="cantainer">
+    <h2>Login</h2>
+    <form id="loginForms">
+        <div class="input-group">
+           <label for="username">Usuário:</label>
+           <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+        </div>
+        <div class="input-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha"  
+        </div>
+        <button type="submit">Entrar</button>
+        <p id="message"></p>
+    </form>
+    <div class="links">
+        <a href="cadastro.html" id="cadastroLink">Cadastra-se</a>
+        <a href="index.html" id="indexLink">Já tem conta? Faça login</a>
+   </div>
 </div>
-<button type=""
-
-
-</form>
+<script src="script.js"></script>
 </body>
 </html>
